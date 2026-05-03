@@ -1,0 +1,130 @@
+
+<!-- The Document Type Declaration: tells the browser this is an HTML5 document -->
+<!DOCTYPE html>
+
+<!-- The root element of the page. 'lang' attribute specifies English for SEO and screen readers -->
+<html lang="en">
+
+    <!-- The container for metadata (data about the page) that isn't displayed to the user -->
+    <head>
+        <!-- Sets character encoding to UTF-8 to support almost all written languages and symbols -->
+        <meta charset="UTF-8">
+
+        <!-- The title displayed in the browser tab and used by search engines -->
+        <title>WEB DEVLOPMENT AND HACKING</title>
+
+        <!-- 'description' content provides a summary of the page for Search Engine Result Pages (SERPs) -->
+        <meta name="Description" content="A Personal Project About Web Full Stack Dev,Hacking">
+
+        <!-- 'viewport' ensures the site is responsive/mobile-friendly by controlling width and scale -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- 'link' connects an external resource; here, 'icon' sets the 'skull' emoji as the favicon -->
+        <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💀</text></svg>">
+    </head>
+
+    <!-- The body element contains all visible content of the web page -->
+    <body> 
+
+    <!-- 'main' defines the primary content of the document; 'id' is a unique identifier for CSS/JS -->
+    <main id="tmain">
+        
+        <!-- 'header' usually contains introductory content or navigation links -->
+        <header>
+            <!-- Level 1 Heading: The most important heading on the page -->
+            <h1>The Web</h1>
+            
+            <!-- 'nav' defines a block of navigation links -->
+            <nav>
+                <!-- 'ol' is an Ordered List (numbered); useful for a sequence or table of contents -->
+                <ol>
+                    <!-- 'li' is a List Item; 'b' makes text bold; 'a' is an anchor (link) -->
+                    <!-- 'href="#about"' is an internal fragment link that jumps to the element with id="about" -->
+                    <li><b><a href="#about">About web history</a></b></li>
+                    <li><b><a href="#problem">btd and What is the problems web are solve</a></b></li>
+                    <li><b><a href="#htw">How web are work</a></b></li>
+                    <li><b><a href="#dive-deep">Dive under the hood</a></b></li>
+                </ol> 
+            </nav>
+            <!-- 'hr' (Horizontal Rule) represents a thematic break or a divider line -->
+            <hr>
+        </header>
+
+        <!-- 'section' defines a standalone portion of the document, grouped by theme -->
+        <section id="history">
+            <!-- 'article' represents a self-contained composition (like a blog post or news story) -->
+            <article id="about">
+                <!-- Level 2 Heading: A sub-section heading -->
+                <h2>About Web History</h2>
+                
+                <!-- 'p' is a paragraph; 'class' is a non-unique identifier for styling multiple elements -->
+                <p class="link-source"><strong>This from home.cern.</strong></p>
+                
+                <!-- 'blockquote' indicates that the enclosed text is quoted from another source -->
+                <blockquote>The
+                    <!-- 'abbr' defines an abbreviation; 'title' shows the full version on hover -->
+                    <abbr title="World Wide Web">(WWW)</abbr> was invented...
+                    
+                    <!-- 'ins' (Inserted) represents text added to the document (usually underlined) -->
+                    <ins>enable automated</ins> information sharing...
+                    
+                    <!-- 'small' makes the text font size one size smaller (often for side-comments) -->
+                    <small>from static text to visual</small>,
+
+                    <!-- 'strong' indicates high importance; browsers typically render this as bold -->
+                    <strong>graphical browsers like Mosaic (1993) and Netscape...</strong>
+
+                    <!-- 'href' with a URL points to an external website -->
+                    <a href="https://home.cern/science/computing/birth-web/short-history-web">That's is a short thing about this</a>
+                    
+                    <!-- 'br' (Break) produces a line break (carriage-return) in text -->
+                    <br>
+
+                    <!-- 'img' embeds an image; 'style' applies inline CSS; 'src' is the path; 'alt' is text for screen readers -->
+                    <img style="width: 500px;" src="images/9407011_31.jpg" alt="Tim Berners-Lee with the first web server">
+                    <br>
+                </blockquote>
+            </article>
+        </section>
+
+        <hr>
+
+        <section id="problem">
+            <h2>Birth day of the web</h2>
+            <!-- 'ul' is an Unordered List (bullet points) -->
+            <ul>
+                <li><strong>The Problem:</strong> Before the Web...</li>
+                <li><strong>The Solution:</strong> Tim Berners-Lee wrote the initial proposal...</li>
+                <li><strong>First Website:</strong> Hosted at CERN...</li>
+            </ul>
+            <hr>
+        </section>
+
+        <section id="htw">
+            <article>
+                <h2>How web is work</h2>
+                <p>The web works via a client-server model...</p>
+                
+                <!-- 'src' points to the image file; 'alt' describes the image for accessibility -->
+                <img style="width: 800px;" src="images/4459ebacf572-how-the-web-works-big-picture.avif" alt="img that help you to know how is the arcticture of the web">
+                <br>
+                <a href="https://youtu.be/BGN0KP4aOR8?si=lsqs3c9Eol9mlCYo">that's Video Just 4 minuts expalin that</a>
+            </article>
+            <hr>
+        </section>
+
+        <!-- 'id="dive-deep"' allows the navigation link at the top to find this specific heading -->
+        <h2 id="dive-deep">Let's going under the hood...</h2>
+        <!-- Linking to another local HTML file (uth.html) in the same directory -->
+        <strong><a href="uth.html">Moving to what is under the hood...</a></strong>
+    </main>
+
+    <!-- 'footer' contains info about the author, copyright data, or contact links -->
+    <footer>
+        <!-- '&copy;' is an HTML entity that renders the copyright symbol (©) -->
+        <p>&copy; 2026 Valntino Akhras. All Rights Reserved.</p>
+    </footer>
+
+    </body>
+</html>
+```
