@@ -1,0 +1,23 @@
+header {
+background-color: aquamarine;
+
+}
+
+blockquote {
+background-color: rgb(152, 94, 18);
+
+    height: 13cm;
+}
+
+body {
+    background-color: antiquewhite;
+
+}
+
+.fl {
+    border: 0;
+    height: 4px;
+    background-color: #ff5733; /* Example color */
+    width: 50%;
+    margin-left: 2
+}
