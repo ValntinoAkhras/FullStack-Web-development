@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- head start -->
+    <!-- This is a project demonstrating Web Development & Hacking fundamentals -->
+    <head>
+        <style> 
+            /* INTERNAL STYLING: CSS rules written inside the HTML file using the <style> tag.
+               This is useful for page-specific styles. */
+
+            /* Targeting the <section> with the unique ID "history" */
+            section#history {
+                /* rgb() defines colors using Red, Green, and Blue values (0-255) */
+                /* !important overrides any other styles applied to this element elsewhere */
+                background-color: rgb(64, 83, 15) !important; 
+                color: rgb(46, 22, 96); /* Sets the font color */
+            }
+
+            /* Targeting the <strong> tag with the unique ID "mo" */
+            strong#mo {
+                color: rgb(78, 188, 161);
+            }
+        </style>
+
+        <!-- EXTERNAL CSS: Linking an outside .css file. 
+             This is the "Pro" way to keep styles organized across multiple pages. -->
+        <link rel="stylesheet" href="./index.css">
+
+        <!-- METADATA: Information for browsers and search engines -->
+        <meta charset="UTF-8"> <!-- Supports all text characters/symbols -->
+        <title>WEB DEVLOPMENT AND HACKING</title>
+        <meta name="Description" content="A Personal Project About Web Full Stack Dev,Hacking">
+        
+        <!-- VIEWPORT: Ensures the website looks good on all devices (Responsive Design) -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- FAVICON: Using an SVG data URI to set a skull 💀 icon in the browser tab -->
+        <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💀</text></svg>">
+    </head>
+
+    <body> 
+    <main id="tmain">
+        <header>
+            <!-- INLINE CSS: Styling applied directly to an element. 
+                 It has the highest "priority" in the browser. -->
+            <h1 style="color: coral;">The Web</h1>
+            <nav>
+                <ol>
+                    <!-- ANCHOR LINKS: Using # ID to jump to specific sections on the same page -->
+                    <li><b><a href="#about">About web history</a></b></li>
+                    <li><b><a href="#problem">btd and What is the problems web are solve</a></b></li>
+                    <li><b><a href="#htw">How web are work</a></b></li>
+                    <li><b><a href="#dive-deep">Dive under the hood</a></b></li>
+                </ol> 
+            </nav>
+            <hr class="fl"> <!-- Horizontal rule for visual separation -->
+        </header>
+
+        <!-- SEMANTIC HTML: Using <section> and <article> to give meaning to the structure -->
+        <section id="history">
+            <article id="about">
+                <h2 style="color: coral;">About Web History</h2>
+                <p class="link-source"><strong id="mo">This from home.cern.</strong></p>
+                
+                <blockquote> 
+                    <!-- ABBR: Shows a tooltip (World Wide Web) when you hover over (WWW) -->
+                    The <abbr title="World Wide Web">(WWW)</abbr> was invented in 1989-1990...
+                    <ins>enable automated</ins> <!-- <ins> represents added/underlined text -->
+                    <small>from static text to visual</small> <!-- Makes text smaller -->
+                    
+                    <a href="https://home.cern/science/computing/birth-web/short-history-web">Link to source</a><br>
+
+                    <!-- IMAGE: width set directly; 'alt' text for accessibility and SEO -->
+                    <img style="width: 500px;" src="images/9407011_31.jpg" alt="Tim Berners-Lee with the first web server">
+                </blockquote>
+            </article>
+        </section>
+
+        <hr>
+
+        <section id="problem">
+            <h2 style="color: coral;">Birth day of the web</h2>
+            <ul> <!-- Unordered List for bullet points -->
+                <li><strong>The Problem:</strong> Specialized tools were once required to find info.</li>
+                <li><strong>The Solution:</strong> The development of HTML, HTTP, and URLs.</li>
+            </ul>
+        </section>
+
+        <section id="htw">
+            <article>
+                <h2 style="color: coral;">How web is work</h2>
+                <p>The web works via a client-server model over the internet...</p>
+                <img style="width: 800px;" src="images/4459ebacf572-how-the-web-works-big-picture.avif" alt="web architecture diagram">
+            </article>
+            <hr>
+        </section>
+
+        <h2 id="dive-deep" style="color: coral;">Let's going under the hood...</h2>
+        <!-- NAVIGATION: Link to a separate HTML file in the same folder -->
+        <strong><a href="uth.html">Moving to what is under the hood of the web</a></strong>
+    </main>
+
+    <footer>
+        <!-- &copy; is an HTML Entity for the Copyright symbol -->
+        <p>&copy; 2026 Valntino Akhras. All Rights Reserved.</p>
+    </footer>
+    </body>
+</html>
